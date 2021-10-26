@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_button_16">16dp</dimen>
+    <dimen name="padding20">20dp</dimen>
+    <dimen name="weight_card_view_350">350dp</dimen>
+    <dimen name="corner_radius_card_view_20">20dp</dimen>
+    <dimen name="margin_bottom_20">20dp</dimen>
+    <dimen name="margin_top_20dp">20dp</dimen>
+</resources>
