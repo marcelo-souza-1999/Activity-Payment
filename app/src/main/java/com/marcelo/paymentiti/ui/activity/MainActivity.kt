@@ -1,7 +1,8 @@
-package com.marcelo.paymentiti
+package com.marcelo.paymentiti.ui.activity
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
+import com.marcelo.paymentiti.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

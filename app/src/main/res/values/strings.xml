@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Payment Iti</string>
+    <!-- Title Activity -->
+    <string name="title_activity">pagamento feito</string>
+    <!-- Title CardView -->
+    <string name="value">R$ 1,00</string>
+    <string name="name_people">para MARCELO SOUZA</string>
+    <string name="text_share">dividir este valor com alguém</string>
+    <!-- Title Button -->
+    <string name="title_button">ver comprovante</string>
+    <!-- Text Description Button Close in Main Activity -->
+    <string name="description_button_close_main">Image Button that closes the application</string>
+    <!-- Text Description Image View in Card View layout -->
+    <string name="text_description_image_view_card_view">Simbolo de OK, confirmando que o pagamento foi realizado</string>
 </resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/padding20">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_dados"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/weight_card_view_350"
+        android:layout_gravity="center"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="@dimen/corner_radius_card_view_20">
+
+        <LinearLayout
+            android:id="@+id/layoutItensCardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageCheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/margin_bottom_20"
+                android:contentDescription="@string/text_description_image_view_card_view"
+                app:srcCompat="@drawable/ic_check_180"
+                tools:ignore="ImageContrastCheck" />
+
+            <TextView
+                android:id="@+id/textViewValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/margin_bottom_20"
+                android:text="@string/value"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textViewName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/margin_bottom_20"
+                android:text="@string/name_people"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textViewShare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/margin_bottom_20"
+                android:layout_marginTop="@dimen/margin_top_20dp"
+                android:text="@string/text_share"
+                android:textColor="@color/text_share"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
