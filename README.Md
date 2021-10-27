@@ -12,6 +12,7 @@ pagamento onde vai ser exibido um comprovante com os dados sobre o pagamento fei
 
 ## Screenshots da Activity
 <img src="/imgs/payment_activity_iti.jpeg" width="200">
+<img src="/imgs/proof_payment_activity_iti.jpeg" width="200">
 
 ## Desenvolvedor
 
