@@ -9,52 +9,28 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:context=".ui.activity.MainActivity">
+        tools:context=".ui.payment.PaymentActivity">
 
-        <TextView
-            android:id="@+id/title_activity"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="8dp"
-            android:text="@string/title_activity"
-            android:textAlignment="center"
-            android:textColor="@color/white"
-            app:layout_constraintEnd_toStartOf="@+id/imageClose"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintHorizontal_chainStyle="spread"
+        <include
+            android:id="@+id/include_header_payment"
+            layout="@layout/header_payment"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <ImageButton
-            android:id="@+id/imageClose"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="16dp"
-            android:background="@color/transparent"
-            android:contentDescription="@string/description_button_close_main"
-            android:src="@drawable/ic_close_24"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/title_activity"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:ignore="TouchTargetSizeCheck,RedundantDescriptionCheck" />
-
         <include
-            android:id="@+id/include"
-            layout="@layout/card_view_layout"
+            android:id="@+id/include_card_payment"
+            layout="@layout/card_view_payment"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="24dp"
+            android:layout_marginStart="8dp"
             android:layout_marginTop="24dp"
-            android:layout_marginEnd="24dp"
+            android:layout_marginEnd="8dp"
             android:layout_marginBottom="24dp"
             app:layout_constraintBottom_toTopOf="@+id/btnShowProvePayment"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/title_activity" />
+            app:layout_constraintTop_toBottomOf="@+id/include_header_payment" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnShowProvePayment"
@@ -65,7 +41,7 @@
             android:layout_marginBottom="16dp"
             android:background="@drawable/border_button"
             android:padding="@dimen/padding_button_16"
-            android:text="@string/title_button"
+            android:text="@string/title_button_payment"
             android:textAllCaps="false"
             android:textColor="@color/white"
             app:layout_constraintBottom_toBottomOf="parent"

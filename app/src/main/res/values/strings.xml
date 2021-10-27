@@ -1,15 +1,39 @@
 <resources>
     <string name="app_name">Payment Iti</string>
-    <!-- Title Activity -->
-    <string name="title_activity">pagamento feito</string>
-    <!-- Title CardView -->
+    <!-- Title Activitys -->
+    <string name="title_activity_payment">pagamento feito</string>
+    <string name="title_activity_proof">comprovante</string>
+    <!-- Texts CardView Payment -->
     <string name="value">R$ 1,00</string>
     <string name="name_people">para MARCELO SOUZA</string>
     <string name="text_share">dividir este valor com alguém</string>
-    <!-- Title Button -->
-    <string name="title_button">ver comprovante</string>
-    <!-- Text Description Button Close in Main Activity -->
+    <!-- Title Button Payment -->
+    <string name="title_button_payment">ver comprovante</string>
+    <!-- Text Description Button Close in Payment Activity -->
     <string name="description_button_close_main">Image Button that closes the application</string>
-    <!-- Text Description Image View in Card View layout -->
+    <!-- Text Description Image View in CardViewPayment layout -->
     <string name="text_description_image_view_card_view">Simbolo de OK, confirmando que o pagamento foi realizado</string>
+    <!-- Texts Transaction Layout -->
+    <string name="text_type_transaction">pagamento feito via Pix</string>
+    <string name="text_date_transaction">26 de outubro de 2021 - 17:10:25</string>
+    <string name="text_id_transaction_title">ID transação:</string>
+    <string name="text_id_transaction_value">E171924512021071314228D000C1CB22</string>
+    <string name="text_id_value_title">valor:</string>
+    <string name="title_name_sender">de</string>
+    <string name="title_name_destiny">para</string>
+    <string name="text_name_value">MARCELO SOUZA</string>
+    <string name="title_cpf">cpf:</string>
+    <string name="text_cpf_value">***.468.208-**</string>
+    <string name="title_institucion">instituição:</string>
+    <string name="text_institucion_value">Iti - Banco Itaucard S/A</string>
+    <string name="title_agency">agência:</string>
+    <string name="text_agency_value">0500</string>
+    <string name="title_account">conta:</string>
+    <string name="text_account_value">009039766-2</string>
+    <string name="title_key_pix">chave Pix:</string>
+    <string name="text_key_pix_value">(12) 99625-9393</string>
+    <string name="title_authentication">autenticação</string>
+    <string name="text_authentication_value">679839d8904b2a8ee637e6c99f5b0244351f1a3c</string>
+    <!-- Text Description Image View Logo ITI -->
+    <string name="description_image_logo_iti">Logo do ITI - Itaú</string>
 </resources>

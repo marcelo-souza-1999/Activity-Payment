@@ -9,8 +9,18 @@
         <entry key="app/src/main/res/drawable/ic_close_24.xml" value="0.18333333333333332" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.18333333333333332" />
         <entry key="app/src/main/res/drawable/ic_logo_iti_background.xml" value="0.18333333333333332" />
+        <entry key="app/src/main/res/drawable/row_view_divider.xml" value="0.11824104234527687" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_payment.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/activity_proof_payment.xml" value="0.33" />
         <entry key="app/src/main/res/layout/card_view_layout.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/card_view_payment.xml" value="0.17291666666666666" />
+        <entry key="app/src/main/res/layout/destiny.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/footer_proof.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/header_payment.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/header_proof_payment.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/sender.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/transaction.xml" value="0.33" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.18333333333333332" />
       </map>
     </option>

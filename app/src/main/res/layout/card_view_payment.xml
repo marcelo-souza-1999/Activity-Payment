@@ -6,12 +6,12 @@
     android:layout_height="wrap_content"
     android:gravity="center"
     android:orientation="vertical"
-    android:padding="@dimen/padding20">
+    android:padding="@dimen/padding10">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/card_dados"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/weight_card_view_350"
+        android:layout_height="@dimen/height_card_view_350"
         android:layout_gravity="center"
         app:cardBackgroundColor="@color/white"
         app:cardCornerRadius="@dimen/corner_radius_card_view_20">
@@ -58,7 +58,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginBottom="@dimen/margin_bottom_20"
-                android:layout_marginTop="@dimen/margin_top_20dp"
+                android:layout_marginTop="@dimen/margin_top_20"
                 android:text="@string/text_share"
                 android:textColor="@color/text_share"
                 android:textStyle="bold"/>
